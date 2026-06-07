@@ -148,7 +148,7 @@ export default function PageColorLab({ isMobile, navigate }) {
           ← Retour
         </button>
         <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: isMobile ? "0 24px 40px" : "0 64px 56px" }}>
-          <div style={{ fontFamily: FONT_BODY, fontSize: 11, letterSpacing: 3, color: C.gold, textTransform: "uppercase", fontWeight: 700, marginBottom: 12 }}>Outil interactif · 2024</div>
+          <div style={{ fontFamily: FONT_BODY, fontSize: 11, letterSpacing: 3, color: C.gold, textTransform: "uppercase", fontWeight: 700, marginBottom: 12 }}>Outil interactif · 2026</div>
           <h1 style={{ fontFamily: FONT_DISPLAY, fontSize: isMobile ? "clamp(36px,9vw,52px)" : "clamp(52px,7vw,80px)", fontWeight: 400, lineHeight: .95, color: C.peach, fontStyle: "italic", letterSpacing: "-0.025em" }}>Color &amp; Type Lab</h1>
           <p style={{ fontFamily: FONT_BODY, fontSize: isMobile ? 13 : 15, color: "rgba(251,190,180,0.7)", marginTop: 12, maxWidth: 520, lineHeight: 1.6 }}>
             Teste tes combinaisons de couleurs et de typographies. Aperçu live + analyse détaillée.
