@@ -77,7 +77,7 @@ export default function App() {
         {page === "projet-4"     && <PageColorLab   {...shared} />}
         {page === "mountains"    && <PageMountains  {...shared} />}
         {page === "retroverse"   && <PageRetroverse {...shared} />}
-        {page === "canal-live"   && <PageCanalLive  {...shared} />}
+        {page === "sakura"       && <PageCanalLive  {...shared} />}
       </div>
     </div>
   );

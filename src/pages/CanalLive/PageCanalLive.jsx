@@ -6,35 +6,36 @@ import CornerOrnaments from "../../components/CornerOrnaments/CornerOrnaments";
 //  DONNÉES DU PROJET  ← modifie tout ici !
 // ─────────────────────────────────────────────────────────────────────────────
 const PROJECT = {
-  title:    "Canal+U · Live",
-  category: "3D Temps réel",
+  title:    "Le Temple du Sakura",
+  category: "Cinématique 3D · Musique",
   year:     "2023",
-  accent:   "#FBBEB4",
-  role:     "Lead Designer 3D",
-  team:     "20 personnes",
-  duration: "2 semaines",
-  lien:     "https://www.behance.net/gallery/178570041/CanalU",
+  accent:   "#D4A574",
+  role:     "Designer 3D",
+  team:     "Solo",
+  duration: "Projet personnel",
+  lien:     null,
 
-  videoId: "ej5401UoiH4", // ID YouTube
+  videoId: "pJ_CZmqbvvg", // ID YouTube
 
   tags: [
     { label: "3D",                   cat: "domain" },
-    { label: "Temps réel",           cat: "domain" },
+    { label: "Cinématique",          cat: "domain" },
+    { label: "Motion design",        cat: "domain" },
     { label: "Direction artistique", cat: "domain" },
     { label: "Unreal Engine 5",      cat: "tool"   },
     { label: "Blender",              cat: "tool"   },
   ],
 
-  desc: "Scène 3D interactive temps réel conçue pour le lancement de l'offre jeunesse Canal+. Volet technique du projet Canal+U — un environnement immersif déployé en live devant plus de 500 visiteurs.",
+  desc: "Cinématique 3D personnelle sous Unreal Engine 5 : synchronisation d'une musique avec un décor onirique asiatique. Cerisiers en fleurs, architecture traditionnelle et effets de lumière atmosphérique au rythme d'une composition musicale.",
 
   contexte:
-    "Dans le cadre du projet Canal+U, l'événement de lancement nécessitait une scène 3D entièrement pilotable en temps réel par les équipes de production. L'environnement devait être à la fois spectaculaire visuellement et suffisamment optimisé pour tourner sans accroc pendant toute la durée de l'événement live, sans aucune interruption possible.",
+    "Projet personnel d'exploration créative autour de la synchronisation entre musique et image 3D. L'objectif était de construire un environnement onirique à l'esthétique asiatique — temple traditionnel, cerisiers en fleurs, brume matinale — et de faire dialoguer chaque séquence visuelle avec les temps forts de la musique choisie. Un exercice de mise en scène cinématique autant que de maîtrise technique d'UE5.",
 
   contribution:
-    "Direction artistique de la scène 3D interactive. Création et import des assets 3D sous Blender, mise en scène et optimisation complète dans Unreal Engine 5. Travail sur les animations d'environnement (particules, lights dynamiques, transitions de caméra) pour rythmer le déroulé de l'événement. Optimisation du pipeline de rendu pour garantir un framerate stable en conditions live, avec gestion des imprévus techniques en temps réel.",
+    "Conception et modélisation complète de l'environnement 3D sous Blender : architecture du temple, végétation (sakuras), éléments décoratifs. Import et mise en scène dans Unreal Engine 5 avec un travail soigné sur l'éclairage Lumen (lumières dorées de fin de journée, bloom et effets de particules pour les pétales de cerisier en mouvement). Montage cinématique synchronisé à la musique — choix des cuts, mouvements de caméra et transitions rythmées au tempo.",
 
   resultats:
-    "Environnement 3D déployé sans incident lors de l'événement Canal+, accueillant plus de 500 visiteurs. La qualité du rendu temps réel sous UE5 a permis des effets visuels dignes d'une cinématique pré-calculée, tout en maintenant l'interactivité nécessaire au live. Canal+ a reconduit la collaboration à l'issue du projet.",
+    "Cinématique aboutie mêlant direction artistique, modélisation 3D et montage musical. Le rendu final démontre une maîtrise complète du pipeline UE5 appliqué à un univers visuel fort et cohérent. Ce projet a permis d'explorer la narration visuelle sans dialogue, portée uniquement par l'image et le son.",
 };
 // ─────────────────────────────────────────────────────────────────────────────
 

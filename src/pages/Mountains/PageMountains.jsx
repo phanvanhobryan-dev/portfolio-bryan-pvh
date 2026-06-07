@@ -15,7 +15,7 @@ const PROJECT = {
   duration: "Projet académique · M2DD",
   lien:     null,
 
-  videoId: "pJ_CZmqbvvg", // ID YouTube
+  videoId: "ej5401UoiH4", // ID YouTube
 
   tags: [
     { label: "3D",              cat: "domain" },

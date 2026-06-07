@@ -97,7 +97,7 @@ export const FEATURED = [
 export const CAROUSEL = [
   {
     id: 11, title: "The Mountains", category: "Cinématique 3D", year: "2023",
-    image: "https://img.youtube.com/vi/pJ_CZmqbvvg/maxresdefault.jpg",
+    image: "https://img.youtube.com/vi/ej5401UoiH4/maxresdefault.jpg",
     tags: [{ label: "3D", cat: "domain" }, { label: "Unreal Engine 5", cat: "tool" }, { label: "GAEA", cat: "tool" }],
     accent: "#FBBEB4",
     page: "mountains",
@@ -110,11 +110,11 @@ export const CAROUSEL = [
     page: "retroverse",
   },
   {
-    id: 13, title: "Canal+U · Live", category: "3D Temps réel", year: "2023",
-    image: "https://img.youtube.com/vi/ej5401UoiH4/maxresdefault.jpg",
-    tags: [{ label: "3D", cat: "domain" }, { label: "Unreal Engine 5", cat: "tool" }, { label: "Blender", cat: "tool" }],
-    accent: "#FBBEB4",
-    page: "canal-live",
+    id: 13, title: "Le Temple du Sakura", category: "Cinématique 3D · Musique", year: "2023",
+    image: "https://img.youtube.com/vi/pJ_CZmqbvvg/maxresdefault.jpg",
+    tags: [{ label: "3D", cat: "domain" }, { label: "Motion design", cat: "domain" }, { label: "Unreal Engine 5", cat: "tool" }],
+    accent: "#D4A574",
+    page: "sakura",
   },
   { id: 5, title: "Liminal", category: "Recherche UX", year: "2025", image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80", tags: [{ label: "UX Research", cat: "domain" }, { label: "Stratégie", cat: "domain" }], accent: "#FBBEB4" },
   { id: 6, title: "Kintsugi", category: "Webdesign", year: "2024", image: "https://images.unsplash.com/photo-1493397212122-2b85dda8106b?w=600&q=80", tags: [{ label: "Webdesign", cat: "domain" }, { label: "Webflow", cat: "tool" }], accent: "#D4A574" },
