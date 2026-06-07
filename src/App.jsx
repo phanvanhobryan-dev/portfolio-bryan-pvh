@@ -2,18 +2,19 @@ import { useState, useEffect } from "react";
 import "./index.css";
 
 import { C, FONT_DISPLAY } from "./constants/tokens";
-import { FEATURED } from "./constants/data";
 import { useResponsive } from "./hooks/useResponsive";
 
 import Header from "./components/Header/Header";
 
-import PageHome       from "./pages/Home/PageHome";
-import PageProfil     from "./pages/Profil/PageProfil";
-import PageCompetences from "./pages/Competences/PageCompetences";
-import PageParcours   from "./pages/Parcours/PageParcours";
-import PageProjet     from "./pages/Projet/PageProjet";
-import PageColorLab   from "./pages/ColorLab/PageColorLab";
-import PageUnreal     from "./pages/Unreal/PageUnreal";
+import PageHome         from "./pages/Home/PageHome";
+import PageProfil       from "./pages/Profil/PageProfil";
+import PageCompetences  from "./pages/Competences/PageCompetences";
+import PageParcours     from "./pages/Parcours/PageParcours";
+import PageCanal        from "./pages/Canal/PageCanal";
+import PageDisney       from "./pages/Disney/PageDisney";
+import PageDigitalEvent from "./pages/DigitalEvent/PageDigitalEvent";
+import PageColorLab     from "./pages/ColorLab/PageColorLab";
+import PageUnreal       from "./pages/Unreal/PageUnreal";
 
 // ─── Routeur interne (sans dépendance externe) ────────────────────────────────
 export default function App() {
@@ -68,9 +69,9 @@ export default function App() {
         {page === "profil"       && <PageProfil        {...shared} />}
         {page === "competences"  && <PageCompetences   {...shared} />}
         {page === "parcours"     && <PageParcours       {...shared} />}
-        {page === "projet-1"     && <PageProjet project={FEATURED[0]} {...shared} />}
-        {page === "projet-2"     && <PageProjet project={FEATURED[1]} {...shared} />}
-        {page === "projet-3"     && <PageProjet project={FEATURED[2]} {...shared} />}
+        {page === "projet-1"     && <PageCanal        {...shared} />}
+        {page === "projet-2"     && <PageDisney       {...shared} />}
+        {page === "projet-3"     && <PageDigitalEvent {...shared} />}
         {page === "projet-4"     && <PageColorLab {...shared} />}
         {page === "unreal"       && <PageUnreal   {...shared} />}
       </div>

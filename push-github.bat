@@ -8,7 +8,7 @@ echo ========================================
 echo.
 
 git add .
-git commit -m "content: remplissage page projet Disney (contexte, contribution, resultats)"
+git commit -m "refactor: pages projets séparées (Canal, Disney, DigitalEvent)"
 git push origin main
 
 echo.
