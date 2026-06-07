@@ -14,7 +14,9 @@ import PageCanal        from "./pages/Canal/PageCanal";
 import PageDisney       from "./pages/Disney/PageDisney";
 import PageDigitalEvent from "./pages/DigitalEvent/PageDigitalEvent";
 import PageColorLab     from "./pages/ColorLab/PageColorLab";
-import PageUnreal       from "./pages/Unreal/PageUnreal";
+import PageMountains    from "./pages/Mountains/PageMountains";
+import PageRetroverse   from "./pages/Retroverse/PageRetroverse";
+import PageCanalLive    from "./pages/CanalLive/PageCanalLive";
 
 // ─── Routeur interne (sans dépendance externe) ────────────────────────────────
 export default function App() {
@@ -72,8 +74,10 @@ export default function App() {
         {page === "projet-1"     && <PageCanal        {...shared} />}
         {page === "projet-2"     && <PageDisney       {...shared} />}
         {page === "projet-3"     && <PageDigitalEvent {...shared} />}
-        {page === "projet-4"     && <PageColorLab {...shared} />}
-        {page === "unreal"       && <PageUnreal   {...shared} />}
+        {page === "projet-4"     && <PageColorLab   {...shared} />}
+        {page === "mountains"    && <PageMountains  {...shared} />}
+        {page === "retroverse"   && <PageRetroverse {...shared} />}
+        {page === "canal-live"   && <PageCanalLive  {...shared} />}
       </div>
     </div>
   );

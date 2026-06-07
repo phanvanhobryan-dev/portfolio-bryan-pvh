@@ -8,7 +8,7 @@ echo ========================================
 echo.
 
 git add .
-git commit -m "refactor: pages projets séparées (Canal, Disney, DigitalEvent)"
+git commit -m "feat: 3 mini-projets carousel (Mountains, Retroverse, CanalLive) avec pages dédiées"
 git push origin main
 
 echo.
