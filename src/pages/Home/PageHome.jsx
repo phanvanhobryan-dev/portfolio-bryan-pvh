@@ -60,7 +60,7 @@ export default function PageHome({ isMobile, isTablet, navigate }) {
         <div style={{ padding: isMobile ? "0 16px" : isTablet ? "0 40px" : "0 64px", maxWidth: 1400, margin: "0 auto" }}>
           <RevealHeader label="02 · Autres travaux" title={<>Glisse pour <em>explorer.</em></>} sub="Drag → pour faire défiler" isMobile={isMobile} />
         </div>
-        <DragCarousel items={CAROUSEL} isMobile={isMobile} />
+        <DragCarousel items={CAROUSEL} isMobile={isMobile} navigate={navigate} />
       </section>
 
     </main>

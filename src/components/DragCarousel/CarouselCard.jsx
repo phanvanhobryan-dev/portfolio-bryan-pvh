@@ -3,13 +3,15 @@ import { C, FONT_BODY, FONT_DISPLAY } from "../../constants/tokens";
 import Tag from "../Tag/Tag";
 import CornerOrnaments from "../CornerOrnaments/CornerOrnaments";
 
-export default function CarouselCard({ item, index, isMobile }) {
+export default function CarouselCard({ item, index, isMobile, navigate }) {
   const [hovered, setHovered] = useState(false);
+  const isClickable = !!item.page && !!navigate;
 
   return (
     <div
       onMouseEnter={() => !isMobile && setHovered(true)}
       onMouseLeave={() => !isMobile && setHovered(false)}
+      onClick={() => isClickable && navigate(item.page)}
       style={{
         minWidth: isMobile ? 240 : 280, height: isMobile ? 300 : 340,
         background: C.indigo,
@@ -37,8 +39,12 @@ export default function CarouselCard({ item, index, isMobile }) {
             {item.tags.map(t => <Tag key={t.label} label={t.label} cat={t.cat} />)}
           </div>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", paddingTop: 14, borderTop: `1px solid ${item.accent}25` }}>
-            <span style={{ fontFamily: FONT_BODY, fontSize: 10, letterSpacing: 2, color: "rgba(251,190,180,.5)", textTransform: "uppercase", fontWeight: 600 }}>Voir le projet</span>
-            <span style={{ color: item.accent, fontSize: 18, transform: hovered ? "translateX(4px)" : "translateX(0)", transition: "transform .2s" }}>→</span>
+            <span style={{ fontFamily: FONT_BODY, fontSize: 10, letterSpacing: 2, color: isClickable ? item.accent : "rgba(251,190,180,.5)", textTransform: "uppercase", fontWeight: 600 }}>
+              {isClickable ? "Voir le projet" : "Bientôt disponible"}
+            </span>
+            <span style={{ color: item.accent, fontSize: 18, transform: hovered ? "translateX(4px)" : "translateX(0)", transition: "transform .2s" }}>
+              {isClickable ? "→" : "·"}
+            </span>
           </div>
         </div>
       </div>

@@ -13,6 +13,7 @@ import PageCompetences from "./pages/Competences/PageCompetences";
 import PageParcours   from "./pages/Parcours/PageParcours";
 import PageProjet     from "./pages/Projet/PageProjet";
 import PageColorLab   from "./pages/ColorLab/PageColorLab";
+import PageUnreal     from "./pages/Unreal/PageUnreal";
 
 // ─── Routeur interne (sans dépendance externe) ────────────────────────────────
 export default function App() {
@@ -71,6 +72,7 @@ export default function App() {
         {page === "projet-2"     && <PageProjet project={FEATURED[1]} {...shared} />}
         {page === "projet-3"     && <PageProjet project={FEATURED[2]} {...shared} />}
         {page === "projet-4"     && <PageColorLab {...shared} />}
+        {page === "unreal"       && <PageUnreal   {...shared} />}
       </div>
     </div>
   );

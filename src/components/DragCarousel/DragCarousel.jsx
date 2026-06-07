@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { C, FONT_BODY } from "../../constants/tokens";
 import CarouselCard from "./CarouselCard";
 
-export default function DragCarousel({ items, isMobile }) {
+export default function DragCarousel({ items, isMobile, navigate }) {
   const trackRef = useRef(null);
   const drag = useRef({ on: false, startX: 0, scrollStart: 0, vel: 0, lastX: 0 });
   const raf  = useRef(null);
@@ -52,7 +52,7 @@ export default function DragCarousel({ items, isMobile }) {
         onTouchStart={down} onTouchMove={move} onTouchEnd={up}
         style={{ paddingLeft: isMobile ? 16 : 64, paddingRight: isMobile ? 16 : 64 }}
       >
-        {items.map((item, i) => <CarouselCard key={item.id} item={item} index={i} isMobile={isMobile} />)}
+        {items.map((item, i) => <CarouselCard key={item.id} item={item} index={i} isMobile={isMobile} navigate={navigate} />)}
         <div style={{ minWidth: 4, flexShrink: 0 }} />
       </div>
     </div>
