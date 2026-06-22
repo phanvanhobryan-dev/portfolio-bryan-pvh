@@ -51,7 +51,7 @@ export const FEATURED = [
   },
   {
     id: 3, title: "Digital Event", category: "Application mobile", year: "2023",
-    image: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800&q=80",
+    image: "https://esd-digital-event.com/2026/wp-content/uploads/2026/02/CreativeTech-Photo-3.jpg",
     images: [
       "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1200&q=85",
       "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1200&q=85",
