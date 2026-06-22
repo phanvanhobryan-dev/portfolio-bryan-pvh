@@ -19,7 +19,7 @@ const PROJECT = {
   duration: "1 semaine intensive",
   lien:     "https://esd-digital-event.com/2026/",
 
-  image: BASE + "flipCreativeTech-Photo-2.jpg",
+  image: BASE + "5a432c82-2215-4b93-9063-ec094479eec3_rw_3840-scaled.jpg",
 
   tags: [
     { label: "Gestion de projet",    cat: "domain" },
