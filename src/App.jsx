@@ -5,6 +5,7 @@ import { C, FONT_DISPLAY } from "./constants/tokens";
 import { useResponsive } from "./hooks/useResponsive";
 
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 import PageHome         from "./pages/Home/PageHome";
 import PageProfil       from "./pages/Profil/PageProfil";
@@ -79,6 +80,8 @@ export default function App() {
         {page === "retroverse"   && <PageRetroverse {...shared} />}
         {page === "sakura"       && <PageCanalLive  {...shared} />}
       </div>
+
+      <Footer />
     </div>
   );
 }
